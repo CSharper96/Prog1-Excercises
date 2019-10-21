@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExerciseSet03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExerciseSet03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseSet03.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="CSharper96 &lt;thomashorny@gmx.net&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S3JSKoTeJatRxDvl4AIBrfeees" />
@@ -82,8 +87,18 @@
       <workItem from="1570786352930" duration="4812000" />
       <workItem from="1571130668697" duration="487000" />
       <workItem from="1571386558825" duration="225000" />
-      <workItem from="1571390290320" duration="4796000" />
+      <workItem from="1571390290320" duration="5039000" />
+      <workItem from="1571399604707" duration="6167000" />
+      <workItem from="1571644864843" duration="2529000" />
     </task>
+    <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
+      <created>1571395324940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571395324941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,13 +117,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ExerciseSet03.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="2" />
+          <line>50</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
