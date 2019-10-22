@@ -89,7 +89,8 @@
       <workItem from="1571386558825" duration="225000" />
       <workItem from="1571390290320" duration="5039000" />
       <workItem from="1571399604707" duration="6167000" />
-      <workItem from="1571644864843" duration="2529000" />
+      <workItem from="1571644864843" duration="4597000" />
+      <workItem from="1571730175616" duration="5413000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
@@ -126,8 +127,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ExerciseSet03.java</url>
-          <line>50</line>
+          <line>220</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExerciseSet03.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

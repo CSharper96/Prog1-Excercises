@@ -40,70 +40,185 @@ public class ExerciseSet03
     }
     public static void aufgabeDrei()
     {
-        String[] strMonths = {"January","February","March","April","May","June","July","August","September","October","November","December"};
-        int year = Terminal.readInt("Select the year ");
-        int month = Terminal.readInt("Select the month (1 is january) ");
-        if(month > 12 || month < 0) return;
-        int days = getDaysOfMonth(month,year);
-        String strMonth = strMonths[month-1];
-        System.out.println(strMonth + " int the year " + year + " got " + days + " days!");
-        int day = Terminal.readInt("Select the day");
-        System.out.println(FuncStrInput(day, month, year));
-        int specialDay = complicatedWayToVerifyDay(day, month, year);
-        int[] changedMonthYear = FuncIntArrayMonthChange(month, year);
-        month = changedMonthYear[0];
-        year = changedMonthYear[1];
-        String dayOfTheWeek = getDayOfTheWeek(day, month, year);
-        String strSpecialDay = "";
-        switch (specialDay)
+        String strYear = Terminal.readString("Please enter a year");
+        int iYear = (int)(Integer.valueOf(strYear)).intValue();
+        int iMonth = Terminal.readInt("Please enter the month (1 = January)");
+        int iDay = Terminal.readInt("Please enter the day");
+        int iDecade = (int) (Integer.valueOf(strYear.substring(2   ))).intValue();
+        int iMillenial = (int) (Integer.valueOf(strYear.substring(0, 2))).intValue();
+        int iAmountOfDays = getDaysOfMonth(iMonth, strYear);
+        System.out.println("Day: "+ iDay +" Month: " + iMonth + " Year: " + strYear + " Got " + iAmountOfDays + " days. " + " Decade: " + iDecade + " Millenial: " + iMillenial + " Leap year?: " + isLeapYear(strYear));
+        String strStartingWeekday = getWeekdayAsString(iDay, iMonth, iMillenial, iDecade);
+        System.out.println("The " + iDay + ". of the month is a " + strStartingWeekday);
+        int iDayVerification = complicatedWayToVerifyDay(iDay, iMonth, iYear);
+        if(iDayVerification != 0)
+        {
+            switch (iDayVerification)
+            {
+                case 1:
+                {
+                    System.out.println("Special day: Mauerfall");
+                    break;
+                }
+                case 2:
+                {
+                    System.out.println("Special day: 9/11");
+                    break;
+                }
+                case 666:
+                {
+                    if(iYear < 1996)
+                        System.out.println("Ma Birthdae (well, not now... but in " + (1996-iYear) + " years)");
+                    else
+                        System.out.println("Ma Birthdae!");
+                    break;
+                }
+                default:
+                    System.out.println("Default not implemented!");
+            }
+        }
+        System.out.println("\nNow it's about to create the calendar!");
+        strStartingWeekday = getWeekdayAsString(1, iMonth, iMillenial, iDecade);
+        printCalendar(strStartingWeekday, iAmountOfDays);
+    }
+    private static  void printCalendar(String strStartingWeekday, int iAmountOfDays)
+    {
+        String arrCalendarPositions[][] = new String[7][7];
+        int iFirstWeekdayPosition = validateStartingWeekday(strStartingWeekday);
+        int iDayCounter = 1;
+        for(int rows = 0; rows <= 6; rows++)
+        {
+            for(int coloumns = 0; coloumns <= 6; coloumns++)
+            {
+                if(rows == 0)
+                {
+                    arrCalendarPositions[rows][coloumns] = setWeekdayForCalendar(coloumns) + "\t";
+                }
+                else if (rows == 1 && coloumns == iFirstWeekdayPosition && iDayCounter <= iAmountOfDays)
+                {
+                    if(iDayCounter < 9) arrCalendarPositions[rows][coloumns] = iDayCounter + "\t" + " ";
+                    else arrCalendarPositions[rows][coloumns] = iDayCounter + "\t";
+                    iDayCounter++;
+                }
+                else if (rows != 0 && rows == 1 && coloumns > iFirstWeekdayPosition && iDayCounter <= iAmountOfDays)
+                {
+                    if(iDayCounter < 9) arrCalendarPositions[rows][coloumns] = iDayCounter + "\t" + " ";
+                    else arrCalendarPositions[rows][coloumns] = iDayCounter + "\t";
+                    iDayCounter++;
+                }
+                else if (rows != 0 && rows != 1 && iDayCounter <= iAmountOfDays)
+                {
+                    if(iDayCounter < 9) arrCalendarPositions[rows][coloumns] = iDayCounter + "\t" + " ";
+                    else arrCalendarPositions[rows][coloumns] = iDayCounter + "\t";
+                    iDayCounter++;
+                }
+                else if(rows != 0)
+                {
+                    if(iDayCounter < 9) arrCalendarPositions[rows][coloumns] = "\t" + "  ";
+                    else arrCalendarPositions[rows][coloumns] = "\t";
+                }
+            }
+        }
+        for(int rows = 0; rows <= 6; rows++)
+        {
+            for(int coloumns = 0; coloumns <= 6; coloumns++)
+            {
+                System.out.print(arrCalendarPositions[rows][coloumns]);
+                System.out.print("  ");
+            }
+            System.out.print("\n");
+        }
+    }
+    private static int validateStartingWeekday(String strSTartingWeekday)
+    {
+        if(strSTartingWeekday == "Monday")
+            return 0;
+        else if(strSTartingWeekday == "Tuesday")
+            return 1;
+        else if(strSTartingWeekday == "Wednesday")
+            return 2;
+        else if(strSTartingWeekday == "Thursday")
+            return 3;
+        else if(strSTartingWeekday == "Friday")
+            return 4;
+        else if(strSTartingWeekday == "Saturday")
+            return 5;
+        else
+            return 6;
+    }
+    private static String setWeekdayForCalendar(int coloumn)
+    {
+        switch (coloumn)
         {
             case 0:
-                break;
+                return "Mon";
             case 1:
-                strSpecialDay = "(Mauerfall)";
+                return "Tue";
             case 2:
-                strSpecialDay = "(9/11)";
-            case 666:
-                strSpecialDay = "(Ma Birthdae!)"; //Possessed by the devil, because it is always true!
+                return "Wed";
+            case 3:
+                return "Thu";
+            case 4:
+                return "Fri";
+            case 5:
+                return "Sat";
+            case 6:
+                return "Sun";
             default:
-                break;
+                return "---";
         }
-        System.out.println("It is a " + dayOfTheWeek + ".");
-        if(specialDay != 0)
-            System.out.println("Special Event: " + strSpecialDay);
     }
-    public static int getDaysOfMonth(int month, int year)
+    private static String getWeekdayAsString(int iDay, int iMonth, int iMillenial, int iDecade)
+    {
+        if (iMonth < 3) iDecade = iDecade - 1;
+        int iWeekday;
+        iWeekday = (int) (((iDay + Math.floor (2.6 * ((iMonth + 9) % 12 + 1) - 0.2) + iDecade + Math.floor(iDecade / 4) + Math.floor(iMillenial / 4) - 2 * iMillenial - 1) % 7 + 7) % 7 + 1);
+        return selectWeekday(iWeekday);
+    }
+    private static String selectWeekday(int iWeekday)
+    {
+        switch (iWeekday)
+        {
+            case 1:
+                return "Monday";
+            case 2:
+                return "Tuesday";
+            case 3:
+                return "Wednesday";
+            case 4:
+                return "Thursday";
+            case 5:
+                return "Friday";
+            case 6:
+                return "Saturday";
+            case 7:
+                return "Sunday";
+            default:
+                return "No valid day!";
+        }
+    }
+    private static int getDaysOfMonth(int iMonth, String strYear)
     {
         int[] months = {31, 28, 31, 30 ,31 ,30, 31, 31, 30, 31, 30, 31};
         int[] monthsLeapYear = {31, 29, 31, 30 ,31 ,30, 31, 31, 30, 31, 30, 31};
-        if(isLeapYear(year))
-            return monthsLeapYear[month-1];
+        if(isLeapYear(strYear))
+            return monthsLeapYear[iMonth-1];
         else
-            return months[month-1];
+            return months[iMonth-1];
     }
-    private static boolean isLeapYear (int year)
+    private static boolean isLeapYear (String strYear)
     {
-        if(year % 4 == 0 && year % 100 != 0)
+        int year = Integer.valueOf(strYear).intValue();
+        if (year % 4 == 0 && year % 100 != 0)
             return true;
-        else if(year % 100 == 0 && year % 400 != 0)
+        else if (year % 100 == 0 && year % 400 != 0)
             return false;
-        else if(year % 400 == 0)
+        else if (year % 400 == 0)
             return true;
         else
             return false;
     }
-    public static String getDayOfTheWeek(int day, int month, int year)
-    {
-        int zellerResult;
-        int j = year / 100;
-        int k;
-        if(month == 1 || month == 2)
-            k = (year - 1) % 100;
-        else
-            k = year % 100;
-        zellerResult = (day + (((month + 1) * 13) / 5) + k + FuncIntGauscheKlammer(k / 4) + FuncIntGauscheKlammer(j / 4) + (5 * j)) % 7;
-        return FuncStrWeekdayString(zellerResult);
-    }
+    private static int FuncIntGauscheKlammer(double value) {return ((int) Math.floor(value));}
     public static int complicatedWayToVerifyDay(int day, int month, int year)
     {
         switch (year)
@@ -164,113 +279,4 @@ public class ExerciseSet03
             }
         }
     }
-    private static void writeName()
-    {
-        int counter = 0;
-        while(counter != 3)
-        {
-            System.out.println("Thomas Horny");
-            counter++;
-        }
-    }
-    public static String FuncStrInput(int day, int month, int year)
-    {
-        if((""+month).length() == 1)
-            if((""+day).length() == 1)
-                return ("0" + day +  ".0" + month + "." + year);
-            else
-                return (      day +  ".0" + month + "." + year);
-        else
-        if((""+day).length() == 1)
-            return ("0" + day +  "." + month + "." + year);
-        else
-            return (      day +  "." + month + "." + year);
-    } // Ende FuncStrEingabe(Tag, Monat, Jahr);
-    public static int[] FuncIntArrayMonthChange(int month, int year)
-    {
-        switch (month)
-        {
-            case 1:
-                month = 11;
-                year--;
-                break;
-            case 2:
-                month = 12;
-                year--;
-                break;
-            case 3:
-                month = 1;
-                break;
-            case 4:
-                month = 2;
-                break;
-            case 5:
-                month = 3;
-                break;
-            case 6:
-                month = 4;
-                break;
-            case 7:
-                month = 5;
-                break;
-            case 8:
-                month = 6;
-                break;
-            case 9:
-                month = 7;
-                break;
-            case 10:
-                month = 8;
-                break;
-            case 11:
-                month = 9;
-                break;
-            case 12:
-                month = 10;
-                break;
-            default:
-                System.out.println("Month?");
-                break;
-        }
-        int MyResult[] = new int[2];
-        MyResult[0] = month;
-        MyResult[1] = year;
-        return MyResult;
-    }
-    public static String FuncStrWeekdayString(int iWeekday)
-    {
-        iWeekday -= 2;
-        if (iWeekday < 0)
-            iWeekday += 7;
-        String strResult;
-        switch(iWeekday)
-        {
-            case 0:
-                strResult = "Sunday";
-                break;
-            case 1:
-                strResult = "Monday";
-                break;
-            case 2:
-                strResult = "Tuesday";
-                break;
-            case 3:
-                strResult = "Wednesday";
-                break;
-            case 4:
-                strResult = "Thursday";
-                break;
-            case 5:
-                strResult = "Friday";
-                break;
-            case 6:
-                strResult = "Saturday";
-                break;
-            default:
-                strResult = "No valid day!";
-                break;
-        }
-        return strResult;
-    }
-    public static int FuncIntGauscheKlammer(double value) {return ((int) Math.floor(value));}
 }
