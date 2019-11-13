@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="">
+    <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/ExerciseSet03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcerciseSet04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcerciseSet04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseSet03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseSet03.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +50,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcerciseSet04">
+  <component name="RunManager" selected="Application.Excercise05">
+    <configuration name="Excercise05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excercise05" />
+      <module name="Programming1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExcerciseSet04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExcerciseSet04" />
       <module name="Programming1" />
@@ -77,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Excercise05" />
         <item itemvalue="Application.ExcerciseSet04" />
         <item itemvalue="Application.ExerciseSet03" />
         <item itemvalue="Application.ExerciseSet02" />
@@ -102,7 +107,10 @@
       <workItem from="1571730175616" duration="5413000" />
       <workItem from="1571997976029" duration="621000" />
       <workItem from="1572281123199" duration="3421000" />
-      <workItem from="1572696125630" duration="2618000" />
+      <workItem from="1572696125630" duration="3464000" />
+      <workItem from="1572944850522" duration="4074000" />
+      <workItem from="1573201819157" duration="10454000" />
+      <workItem from="1573218791651" duration="4001000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
@@ -148,17 +156,11 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExcerciseSet04.java</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/src/Excercise05.java</url>
+          <line>225</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="ch" />
-        <watch expression="ch" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
