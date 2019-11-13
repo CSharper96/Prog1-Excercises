@@ -2,13 +2,13 @@ import java.util.Stack;
 
 public class ExcerciseSet04
 {
-    public static void main(String[] args)
-    {
+    //public static void main(String[] args)
+    //{
         //startByteOverflowDemo();
         //demonstrateArithmeticOperations();
         //convertToBinary();
-        convertHexToDec0();
-    }
+        //convertHexToDec0();
+    //}
     /*  30 == 0001 1110
     *   60 == 0011 1100
     *   90 == 0101 1010

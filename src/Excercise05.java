@@ -1,57 +1,57 @@
 public class Excercise05
 {
-    public static void main(String[] args)
-    {
-        int iMenu = -1;
-        while (iMenu != 0)
-        {
-            if(iMenu > -2 && iMenu < 5)
-            {
-                System.out.println("1 : Zinsberechnung");
-                System.out.println("2 : Durchschnittsberechnung");
-                System.out.println("3 : Vektor-Test");
-                System.out.println("4 : Maulwurfssimulation");
-                System.out.println("0 : Beenden");
-                System.out.println("-1 : Angaben wiederholen");
-            }
-            iMenu = Terminal.readInt("Bitte geben Sie Ihre Zahl ein");
-            if(iMenu > -2 && iMenu < 5)
-                System.out.println("\n\n");
-            switch (iMenu)
-            {
-                case 1:
-                {
-                    calculation();
-                    iMenu = -1;
-                    break;
-                }
-                case 2:
-                {
-                    averageCalculation();
-                    iMenu = -1;
-                    break;
-                }
-                case 3:
-                {
-                    vectorTest();
-                    iMenu = -1;
-                    break;
-                }
-                case 4:
-                {
-                    moleSimulation();
-                    iMenu = -1;
-                    break;
-                }
-                case 0:
-                    break;
-                default: {
-                    iMenu = -1;
-                    break;
-                }
-            }
-        }
-    }
+//    public static void main(String[] args)
+//    {
+//        int iMenu = -1;
+//        while (iMenu != 0)
+//        {
+//            if(iMenu > -2 && iMenu < 5)
+//            {
+//                System.out.println("1 : Zinsberechnung");
+//                System.out.println("2 : Durchschnittsberechnung");
+//                System.out.println("3 : Vektor-Test");
+//                System.out.println("4 : Maulwurfssimulation");
+//                System.out.println("0 : Beenden");
+//                System.out.println("-1 : Angaben wiederholen");
+//            }
+//            iMenu = Terminal.readInt("Bitte geben Sie Ihre Zahl ein");
+//            if(iMenu > -2 && iMenu < 5)
+//                System.out.println("\n\n");
+//            switch (iMenu)
+//            {
+//                case 1:
+//                {
+//                    calculation();
+//                    iMenu = -1;
+//                    break;
+//                }
+//                case 2:
+//                {
+//                    averageCalculation();
+//                    iMenu = -1;
+//                    break;
+//                }
+//                case 3:
+//                {
+//                    vectorTest();
+//                    iMenu = -1;
+//                    break;
+//                }
+//                case 4:
+//                {
+//                    moleSimulation();
+//                    iMenu = -1;
+//                    break;
+//                }
+//                case 0:
+//                    break;
+//                default: {
+//                    iMenu = -1;
+//                    break;
+//                }
+//            }
+//        }
+//    }
     private static void calculation()
     {
         System.out.println("**\t\tZinsberechnung\t\t**\n\n");

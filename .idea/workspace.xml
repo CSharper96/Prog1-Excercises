@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/Excercise05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/Excercise05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/ExcerciseSet04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/ExcerciseSet04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Excercise05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excercise05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExcerciseSet04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcerciseSet04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +34,15 @@
   </component>
   <component name="ProjectId" id="1S3JSKoTeJatRxDvl4AIBrfeees" />
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/src" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="programming1" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Excercise05">
+  <component name="RunManager" selected="Application.Exercise06">
     <configuration name="Excercise05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Excercise05" />
       <module name="Programming1" />
@@ -60,6 +73,14 @@
     </configuration>
     <configuration name="ExcerciseSet04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExcerciseSet04" />
+      <module name="Programming1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Exercise06" />
       <module name="Programming1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,8 +100,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Excercise05" />
+      <item itemvalue="Application.Exercise06" />
+      <item itemvalue="Application.ExcerciseSet04" />
+      <item itemvalue="Application.ExerciseSet02" />
+      <item itemvalue="Application.ExerciseSet03" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise06" />
         <item itemvalue="Application.Excercise05" />
         <item itemvalue="Application.ExcerciseSet04" />
         <item itemvalue="Application.ExerciseSet03" />
@@ -111,6 +140,7 @@
       <workItem from="1572944850522" duration="4074000" />
       <workItem from="1573201819157" duration="10454000" />
       <workItem from="1573218791651" duration="4001000" />
+      <workItem from="1573635122531" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
