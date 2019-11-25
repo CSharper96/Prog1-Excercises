@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/Excercise05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/Excercise05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/ExcerciseSet04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/ExcerciseSet04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excercise05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excercise05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcerciseSet04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcerciseSet04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/Exercise06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/Exercise06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise06.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +46,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,6 +142,8 @@
       <workItem from="1573201819157" duration="10454000" />
       <workItem from="1573218791651" duration="4001000" />
       <workItem from="1573635122531" duration="4133000" />
+      <workItem from="1573807705263" duration="3871000" />
+      <workItem from="1574703310640" duration="11224000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
@@ -189,6 +192,21 @@
           <url>file://$PROJECT_DIR$/src/Excercise05.java</url>
           <line>225</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercise06.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercise06.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercise06.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
