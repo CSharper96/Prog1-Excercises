@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/Exercise06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/Exercise06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise06.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise06">
+  <component name="RunManager" selected="Application.PolygonTest">
     <configuration name="Excercise05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Excercise05" />
       <module name="Programming1" />
@@ -87,16 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseSet02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseSet02" />
+    <configuration name="ExerciseSet03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseSet03" />
       <module name="Programming1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseSet03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseSet03" />
+    <configuration name="PolygonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="horny.prog1.exercises.set07.PolygonTest" />
       <module name="Programming1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="horny.prog1.exercises.set07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,16 +108,16 @@
       <item itemvalue="Application.Excercise05" />
       <item itemvalue="Application.Exercise06" />
       <item itemvalue="Application.ExcerciseSet04" />
-      <item itemvalue="Application.ExerciseSet02" />
       <item itemvalue="Application.ExerciseSet03" />
+      <item itemvalue="Application.PolygonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolygonTest" />
         <item itemvalue="Application.Exercise06" />
         <item itemvalue="Application.Excercise05" />
         <item itemvalue="Application.ExcerciseSet04" />
         <item itemvalue="Application.ExerciseSet03" />
-        <item itemvalue="Application.ExerciseSet02" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,8 @@
       <workItem from="1573218791651" duration="4001000" />
       <workItem from="1573635122531" duration="4133000" />
       <workItem from="1573807705263" duration="3871000" />
-      <workItem from="1574703310640" duration="11224000" />
+      <workItem from="1574703310640" duration="11458000" />
+      <workItem from="1574874618192" duration="6302000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
