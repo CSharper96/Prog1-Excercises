@@ -69,9 +69,12 @@ public class Polygon
         double a = 0.0;
         double y[] = getCoordinates(size, false);
         double x[] = getCoordinates(size, true);
-        for (int i = 1; i < size; i++)
+        for (int i = 0; i < size; i++)
         {
-            a += x[i] * (y[(i + 1) % size] - y[(i - 1) % size]);
+            int index = i - 1;
+            if(index == -1)
+                index = size - 1;
+            a += x[i] * (y[(i + 1) % size] - y[(index) % size]);
         }
         return Math.abs(a / 2.0);
     }
