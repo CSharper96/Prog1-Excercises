@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/Polygon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/PolygonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/PolygonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/PolygonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/PolygonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +152,8 @@
       <workItem from="1573807705263" duration="3871000" />
       <workItem from="1574703310640" duration="11458000" />
       <workItem from="1574874618192" duration="6302000" />
+      <workItem from="1574956793423" duration="3107000" />
+      <workItem from="1575018453173" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>

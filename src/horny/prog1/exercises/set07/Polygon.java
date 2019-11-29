@@ -13,6 +13,10 @@ public class Polygon
     {
         Points.add(new Point(x, y));
     }
+    public void addPoint(Point point)
+    {
+        Points.add(point);
+    }
     public Point getFirstPoint()
     {
         if(Points.isEmpty())
@@ -82,5 +86,24 @@ public class Polygon
                 coordinates[i] = (Points.get(i)).GetY();
         }
         return coordinates;
+    }
+    public void smooth()
+    {
+        ArrayList<Point> newPoints = new ArrayList<>();
+        int amountOfPoints = getSize();
+        for(int i = 0; i < amountOfPoints; i++)
+        {
+            double vecX = (Points.get((i+1)%amountOfPoints).GetX()) - (Points.get(i).GetX());
+            double vecY = (Points.get((i+1)%amountOfPoints).GetY()) - (Points.get(i).GetY());
+            double x = ((1.0/3.0) * vecX) + Points.get(i).GetX();
+            double y = ((1.0/3.0) * vecY) + Points.get(i).GetY();
+            Point point1 = new Point(x, y);
+            x = ((2.0/3.0) * vecX) + Points.get(i).GetX();
+            y = ((2.0/3.0) * vecY) + Points.get(i).GetY();
+            Point point2 = new Point(x, y);
+            newPoints.add(point1);
+            newPoints.add(point2);
+        }
+        this.Points = newPoints;
     }
 }

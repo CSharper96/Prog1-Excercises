@@ -1,5 +1,6 @@
 package horny.prog1.exercises.set07;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PolygonTest
@@ -11,6 +12,8 @@ public class PolygonTest
         writePoints();
         System.out.println("Area1 = " + polygon.calculateArea1());
         System.out.println("Area2 = " + polygon.calculateArea2());
+        polygon.smooth();
+        System.out.println(polygon.toString());
     }
     private static void createPolygon()
     {
@@ -23,6 +26,7 @@ public class PolygonTest
 
         for(int i = 0; i != amountOfPoints; i++)
         {
+
             System.out.print("Enter the x-pos of P" + (i+1) + " :");
             double x = scan.nextDouble();
             System.out.print("Enter the y-pos of P" + (i+1) + " :");
