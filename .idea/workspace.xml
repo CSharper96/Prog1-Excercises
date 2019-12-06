@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/horny/prog1/exercises/set07/Polygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set07/PolygonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PolygonTest">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="Excercise05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Excercise05" />
       <module name="Programming1" />
@@ -87,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseSet03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseSet03" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="Programming1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,16 +110,16 @@
       <item itemvalue="Application.Excercise05" />
       <item itemvalue="Application.Exercise06" />
       <item itemvalue="Application.ExcerciseSet04" />
-      <item itemvalue="Application.ExerciseSet03" />
       <item itemvalue="Application.PolygonTest" />
+      <item itemvalue="Application.MainClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.PolygonTest" />
         <item itemvalue="Application.Exercise06" />
         <item itemvalue="Application.Excercise05" />
         <item itemvalue="Application.ExcerciseSet04" />
-        <item itemvalue="Application.ExerciseSet03" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,8 @@
       <workItem from="1574703310640" duration="11458000" />
       <workItem from="1574874618192" duration="6302000" />
       <workItem from="1574956793423" duration="3107000" />
-      <workItem from="1575018453173" duration="2288000" />
+      <workItem from="1575018453173" duration="5273000" />
+      <workItem from="1575309984342" duration="3900000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
@@ -216,6 +216,11 @@
           <url>file://$PROJECT_DIR$/src/Exercise06.java</url>
           <line>268</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/horny/prog1/exercises/set08/Prog.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
