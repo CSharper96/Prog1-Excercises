@@ -4,7 +4,7 @@ public class MainClass
 
     public static void main(String[] args)
     {
-        Prog prog = new Prog();
-        prog.startProg();
+        RegressionCalculator calculator = new RegressionCalculator();
+        calculator.startProg();
     }
 }
