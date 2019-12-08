@@ -45,6 +45,7 @@ public class MyPaintController extends AbstractController
                 RegressionCalculator calculator = new RegressionCalculator();
                 Pair<ArrayList<Point>, ArrayList<Point>> allPoints = new Pair<>(null, null);
                 allPoints = calculator.startProg();
+                ptool.setColor(Color.RED);
                 for(Point point : allPoints.getKey())
                 {
                     DrawableObject obj = ptool.addCircle((int) point.GetX() * 40, cHeight - (int) point.GetY() * 2, 2, true);
@@ -56,6 +57,7 @@ public class MyPaintController extends AbstractController
                 int i = ptool.getDrawableObjects().size();
                 int x = ptool.getDrawableObjects().get(i - 1).getX();
                 int y = ptool.getDrawableObjects().get(i - 1).getY();
+                ptool.setColor(Color.BLUE);
                 DrawableObject obj = ptool
                         .addLine(0, cHeight, x, y);
                 ptool.sleep(200);

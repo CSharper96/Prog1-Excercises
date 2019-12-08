@@ -69,7 +69,7 @@ public class RegressionCalculator
         if(isX)
         {
             for(Point point : GivenValues)
-                allValues.add(point.GetX() + 1);
+                allValues.add(point.GetX());
             return calculateArithmetic(allValues);
         }
         else

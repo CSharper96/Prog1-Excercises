@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming1/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/Prog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/Prog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/RegressionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/RegressionCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,6 +166,9 @@
       <workItem from="1575018453173" duration="5273000" />
       <workItem from="1575309984342" duration="3900000" />
       <workItem from="1575622504985" duration="5063000" />
+      <workItem from="1575631995195" duration="90000" />
+      <workItem from="1575636906591" duration="722000" />
+      <workItem from="1575830710431" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
@@ -231,21 +232,6 @@
           <url>file://$PROJECT_DIR$/src/Exercise06.java</url>
           <line>268</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/horny/prog1/exercises/set08/RegressionCalculator.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
