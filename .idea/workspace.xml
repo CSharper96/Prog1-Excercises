@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4927f5aa-26be-46b9-8082-2b4753d47d8f" name="Default Changelist" comment="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/MyPaintController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/RegressionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horny/prog1/exercises/set08/RegressionCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,15 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyPaintApp">
-    <configuration name="Exercise06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Exercise06" />
-      <module name="Programming1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MySortingAlgorithm">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="Programming1" />
@@ -85,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="horny.prog1.exercises.set08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySortingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="horny.prog1.exercises.set09.MySortingAlgorithm" />
+      <module name="Programming1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="horny.prog1.exercises.set09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exercise06" />
       <item itemvalue="Application.PolygonTest" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.PaintDemoApp" />
       <item itemvalue="Application.MyPaintApp" />
+      <item itemvalue="Application.MySortingAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySortingAlgorithm" />
         <item itemvalue="Application.MyPaintApp" />
         <item itemvalue="Application.PaintDemoApp" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.PolygonTest" />
-        <item itemvalue="Application.Exercise06" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,7 @@
       <workItem from="1575631995195" duration="90000" />
       <workItem from="1575636906591" duration="722000" />
       <workItem from="1575830710431" duration="879000" />
+      <workItem from="1576233564667" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="Added ExcerciseSet03.&#10;First tries with Pair&lt;&gt; and Map&lt;&gt; in Java.">
       <created>1571395324940</created>
